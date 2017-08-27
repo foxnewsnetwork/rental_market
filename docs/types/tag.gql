@@ -1,0 +1,6 @@
+type Tag {
+  id: String
+  name: String
+  description: String
+  parent: Tag
+}

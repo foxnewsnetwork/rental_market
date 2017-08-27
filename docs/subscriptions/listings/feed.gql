@@ -1,0 +1,15 @@
+subscription ListingFeed($user: UserID) {
+  feeds {
+    poster {
+      name
+      listings {
+        count
+      }
+    }
+    listings {
+      title
+      location
+    }
+    insertedAt
+  }
+}

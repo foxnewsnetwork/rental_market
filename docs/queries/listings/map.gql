@@ -1,0 +1,10 @@
+query MapGeoSearch($querystring: String, $location: Location, $zoom: Zoom) {
+    geohubs(querystring: $querystring, location: $location, zoom: $zoom) {
+      listings {
+        name
+        price
+      }
+      count
+      location
+    }
+}

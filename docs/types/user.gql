@@ -1,0 +1,8 @@
+type User {
+  id: String!
+  name: String!
+  insertedAt: Datetime!
+  updatedAt: Datetime!
+  listings: [Listing]!
+  feeds: [Feed]!
+}

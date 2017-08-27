@@ -1,0 +1,9 @@
+query ListingsSearch($querystring: String, $location: Location) {
+  listings(querystring: $querystring, location: $location) {
+    name
+    location
+    poster
+    price
+    insertedAt
+  }
+}

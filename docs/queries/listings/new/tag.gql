@@ -1,0 +1,7 @@
+query TagSearch($tagName: String) {
+  tags(name: $tagName) {
+    id
+    name
+    parent
+  }
+}

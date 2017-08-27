@@ -1,0 +1,4 @@
+type Subscription {
+  notificationCount: Int,
+  disputeCount: Int
+}

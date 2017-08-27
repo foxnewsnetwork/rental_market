@@ -1,0 +1,4 @@
+input LocationCoordinateInput {
+  longitude: Double!
+  latitude: Double!
+}

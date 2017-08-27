@@ -1,0 +1,6 @@
+type Geohub {
+  location: Location
+  zoom: Integer
+  listings: [Listing]!
+  count: Integer
+}

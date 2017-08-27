@@ -1,0 +1,7 @@
+type Feed {
+  id: String!
+  listings: [Listing]!
+  insertedAt: Datetime!
+  updatedAt: Datetime!
+  poster: User!
+}

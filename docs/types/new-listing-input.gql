@@ -1,0 +1,11 @@
+union LocationInput = LocationAddressInput | LocationCoordinateInput
+
+input NewListingInput {
+  title: String!
+  pictures: [PictureInput]
+  priceRates: [PriceRate]
+  securityDesposit: Double
+  tags: [TagSelectInput]
+  location: LocationInput
+  description: String
+}

@@ -1,0 +1,5 @@
+mutation CreateNewListing($user: User, $input: NewListingInput) {
+  createListing(user: $user, input: $input) {
+    listing
+  }
+}

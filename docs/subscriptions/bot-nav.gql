@@ -1,0 +1,7 @@
+subscription BotNavNotification {
+  botNavNotices {
+    inbox {
+      count
+    }
+  }
+}

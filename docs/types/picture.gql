@@ -1,0 +1,5 @@
+type Picture {
+  id: String
+  label: String
+  uri: String
+}

@@ -1,0 +1,10 @@
+type Listing {
+  id: String!
+  title: String!
+  insertedAt: Datetime!
+  updatedAt: Datetime!
+  poster: User!
+  location: Location!
+  priceRate: PriceRate!
+  securityDeposit: Double!
+}
